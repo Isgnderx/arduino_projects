@@ -1,33 +1,22 @@
-# LED Blink
+# LED Circuit (Analog)
 
-This is a basic Arduino project where an LED is turned on and off at a fixed interval.
-
-## Description
-The goal of this project is to understand the basics of Arduino digital output, pin configuration, and timing functions.
+This project is a basic LED circuit built on a breadboard without writing Arduino code.
+The focus is on understanding basic electronics rather than programming.
 
 ## Components Used
-- Arduino Uno
 - LED
 - 220Ω resistor
 - Breadboard
 - Jumper wires
-
-## Circuit
-![Circuit](circuit.jpg)
-
-## Code
-The Arduino sketch is available in the `led_blink.ino` file.
+- Power source (Arduino 5V or external)
 
 ## What I Learned
-- How to use `pinMode`
-- How to control digital output using `digitalWrite`
-- How to use `delay` for timing
-- Basic circuit setup with an LED and resistor
+- How to connect an LED correctly (anode and cathode)
+- The role of a resistor in limiting current
+- Basic breadboard usage
+- Simple analog circuit concepts
+- How voltage and current affect an LED
 
-## Source of Learning
-This project was built while following the FreeCodeCamp Arduino course.
-
-## Next Improvements
-- Control blink speed using a potentiometer
-- Replace `delay` with `millis`
-
+## Notes
+No Arduino code was written for this project.
+The goal was to understand the hardware and analog side of electronics.
